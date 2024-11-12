@@ -48,7 +48,9 @@ La estructura HTML incluye una cuadrícula de botones (diseñada con CSS Grid) p
     <button name="data-numer">2</button>
     <!-- ... otros botones ... -->
     <button name="data-opera">x</button>
-</div>
+</div>  
+```
+
 ## CSS
 El archivo CSS (`style.css`) define el estilo de la calculadora con un fondo degradado, estilo para los botones y el área de pantalla.
 
@@ -79,6 +81,7 @@ Los estilos principales incluyen:
     grid-template-rows: minmax(120px, auto) repeat(5, 100px);
     /* otros estilos */
 }
+```
 ## Uso
 Para utilizar la calculadora:
 
@@ -86,7 +89,5 @@ Para utilizar la calculadora:
 2. Haz clic en `=` para ver el resultado.
 3. Usa el botón `C` para borrar el resultado y empezar una nueva operación.
 
-## Demo
-Aquí tienes una captura de la calculadora:
 
 
